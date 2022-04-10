@@ -1,0 +1,45 @@
+.hero {
+  @apply flex flex-col items-center text-center justify-center;
+
+  &_image {
+    @apply w-48 h-48 rounded-full overflow-hidden sm:w-60 sm:h-60;
+  }
+
+  &_text {
+    @apply text-3xl mt-6;
+
+    h1 {
+      &:first-child {
+        @apply font-normal text-dark;
+      }
+
+      &:last-child {
+        @apply text-accent mt-4 md:mt-6;
+      }
+    }
+  }
+}
+
+.who_am_i {
+  @apply text-center;
+
+  p {
+    @apply container;
+  }
+}
+
+.recent_work {
+  div {
+    @apply mt-4;
+  }
+
+  button {
+    @apply bg-accent mt-4;
+  }
+}
+
+.what_i_use {
+  & > div {
+    @apply mt-4 flex justify-center flex-wrap gap-3;
+  }
+}

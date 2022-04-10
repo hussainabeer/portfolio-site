@@ -1,0 +1,17 @@
+.card {
+  @apply bg-primary-light rounded overflow-hidden w-full;
+
+  flex-basis: 150px;
+
+  @media screen(md) {
+    flex-basis: 200px;
+  }
+
+  div {
+    @apply p-6 pb-0;
+  }
+
+  p {
+    @apply text-sm font-bold text-light px-4 py-2 bg-primary md:text-lg;
+  }
+}

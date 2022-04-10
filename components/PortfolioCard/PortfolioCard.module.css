@@ -1,0 +1,7 @@
+.card {
+  @apply rounded overflow-hidden w-full;
+
+  p {
+    @apply text-lg mt-0 rounded-b px-4 py-2 bg-primary text-light font-bold;
+  }
+}

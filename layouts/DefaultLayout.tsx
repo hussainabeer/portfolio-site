@@ -1,4 +1,5 @@
 import { ReactElement, ReactNode } from 'react';
+import Header from '../components/Header/Header';
 
 type LayoutProps = {
   children: ReactNode;
@@ -7,9 +8,9 @@ type LayoutProps = {
 export default function DefaultLayout({ children }: LayoutProps): ReactElement {
   return (
     <>
-      <h1>Header</h1>
+      <Header />
       <main>{children}</main>
-      <h1>Footer</h1>
+      {/* <h1>Footer</h1> */}
     </>
   );
 }
