@@ -1,0 +1,19 @@
+.footer {
+  @apply text-xs mt-3 pt-6;
+
+  & > div {
+    @apply flex items-center justify-center gap-3;
+
+    a {
+      img {
+        @apply max-w-full;
+      }
+
+      @apply w-6 h-6;
+    }
+  }
+
+  p {
+    @apply p-3 pt-0;
+  }
+}
