@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           <Image src={PersonImage} objectFit="fill"></Image>
         </div>
         <div className={styles.hero_text}>
-          <h1>Hi, My name is</h1>
+          <h1>Hello, My name is</h1>
           <h1>Abeer</h1>
         </div>
       </section>
